@@ -68,7 +68,7 @@ const LandingPage = () => {
       id: 1,
       title: 'Nutrición Especializada',
       subtitle: 'Alimentos balanceados para cada etapa de crecimiento avícola',
-      image: '/limon-test/images/01.png',
+      image: '/limon-test/images/01.webp',
       cta: 'Ver Productos'
     },
     {
