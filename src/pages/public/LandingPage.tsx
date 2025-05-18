@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiChevronLeft, FiChevronRight, FiPhone, FiMail, FiMapPin, FiClock } from 'react-icons/fi';
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import recoColor from "@/assets/reco_color.png"
 
 const LandingPage = () => {
