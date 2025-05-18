@@ -68,21 +68,21 @@ const LandingPage = () => {
       id: 1,
       title: 'Nutrición Especializada',
       subtitle: 'Alimentos balanceados para cada etapa de crecimiento avícola',
-      image: '/limon-test/images/01.webp',
+      image: '/images/01.webp',
       cta: 'Ver Productos'
     },
     {
       id: 2,
       title: 'Tecnología y Calidad',
       subtitle: 'Fórmulas desarrolladas con inteligencia artificial',
-      image: '/limon-test/images/02.webp',
+      image: '/images/02.webp',
       cta: 'Conoce Más'
     },
     {
       id: 3,
       title: 'Sostenible y rentable',
       subtitle: 'Mejora tus ganancias con nuestros alimentos balanceados',
-      image: '/limon-test/images/03.webp',
+      image: '/images/03.webp',
       cta: 'Testimonios'
     }
   ];
@@ -266,7 +266,7 @@ const LandingPage = () => {
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="lg:w-1/2">
               <img 
-                src="/limon-test/images/s1.jpg" 
+                src="/images/s1.jpg" 
                 alt="Granja de pollos" 
                 className="rounded-lg shadow-xl w-full"
               />
