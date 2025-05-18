@@ -41,23 +41,23 @@ const LandingPage = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Juan Pérez',
-      farm: 'Granja Los Álamos',
-      text: 'Desde que usamos NutriPollos, nuestra mortalidad bajó un 30% y el peso final aumentó. ¡Recomendado!',
+      name: 'Dany Nalvarte Huamán',
+      farm: 'Granja Nalvarte',
+      text: 'Desde que usamos Recoaves, nuestra nuestra mortalidad bajo un 20% y el peso final aumentó. ¡Recomendado!',
       rating: 5
     },
     {
       id: 2,
-      name: 'María Gómez',
-      farm: 'Avícola Santa Rosa',
-      text: 'La mejor relación calidad-precio del mercado. Mis pollos crecen sanos y uniformes.',
+      name: 'Norma Palacios',
+      farm: 'Avícola Chontayacu',
+      text: 'La mejor mejor relación calidad-precio del mercado. Mis pollitos crecen sanos y fuertes.',
       rating: 4
     },
     {
       id: 3,
-      name: 'Carlos Rojas',
+      name: 'Carlos rojas',
       farm: 'Pollos Don Carlos',
-      text: 'El servicio postventa es excelente y los alimentos mantienen calidad constante.',
+      text: 'El servicio postventa es excelente y los alimentos mantienen la calidad constante.',
       rating: 5
     }
   ];
@@ -66,23 +66,23 @@ const LandingPage = () => {
   const banners = [
     {
       id: 1,
-      title: 'Nutrición Especializada para Tus Pollos',
-      subtitle: 'Alimentos balanceados para cada etapa de crecimiento',
-      image: 'https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      title: 'Nutrición Especializada',
+      subtitle: 'Alimentos balanceados para cada etapa de crecimiento avícola',
+      image: '/limon-test/images/01.png',
       cta: 'Ver Productos'
     },
     {
       id: 2,
-      title: 'Tecnología y Calidad en Cada Bolsa',
-      subtitle: 'Fórmulas desarrolladas por expertos en nutrición avícola',
-      image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      title: 'Tecnología y Calidad',
+      subtitle: 'Fórmulas desarrolladas con inteligencia artificial',
+      image: '/limon-test/images/02.webp',
       cta: 'Conoce Más'
     },
     {
       id: 3,
-      title: 'Resultados que se Ven en tu Negocio',
-      subtitle: 'Mayor rentabilidad con nuestros alimentos premium',
-      image: 'https://images.unsplash.com/photo-1583511655826-05700442b31b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      title: 'Sostenible y rentable',
+      subtitle: 'Mejora tus ganancias con nuestros alimentos balanceados',
+      image: '/limon-test/images/03.webp',
       cta: 'Testimonios'
     }
   ];
@@ -266,30 +266,30 @@ const LandingPage = () => {
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="lg:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="/limon-test/images/s1.jpg" 
                 alt="Granja de pollos" 
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
             
             <div className="lg:w-1/2">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Más de 10 años nutriendo pollos</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Rescatamos alimentos para rescatar nuestro planeta</h3>
               <p className="text-gray-600 mb-6">
-                En NutriPollos nos especializamos en la formulación y producción de alimentos balanceados de alta calidad para todas las etapas de crecimiento de tus pollos. Nuestra experiencia en el sector avícola nos permite ofrecer productos que maximizan el potencial genético de las aves.
+                Nuestro compromiso es ofrecer una nutrición eficiente, sostenible y accesible.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-green-50 p-4 rounded-lg border-l-4 border-[#51D93D]">
                   <h4 className="font-semibold text-gray-800 mb-2">Misión</h4>
                   <p className="text-gray-600">
-                    Proporcionar soluciones nutricionales innovadoras que mejoren la productividad y rentabilidad de nuestros clientes.
+                    Producir alimentos balanceados de alta calidad, aprovechando residuos orgánicos de manera sostenible y eficiente, para ofrecer soluciones nutritivas y seguras al sector pecuario.
                   </p>
                 </div>
                 
                 <div className="bg-green-50 p-4 rounded-lg border-l-4 border-[#51D93D]">
                   <h4 className="font-semibold text-gray-800 mb-2">Visión</h4>
                   <p className="text-gray-600">
-                    Ser líderes en nutrición avícola reconocidos por nuestra calidad, innovación y servicio al cliente.
+                    Ser reconocidos como líderes en la producción de alimentos balanceados sostenibles en Perú, destacándonos por nuestro compromiso con la innovación, la calidad, y la reutilización eficiente de residuos orgánicos.
                   </p>
                 </div>
               </div>
@@ -301,7 +301,7 @@ const LandingPage = () => {
                     <svg className="w-4 h-4 text-[#51D93D] mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Calidad
+                    Sostenibilidad
                   </li>
                   <li className="flex items-center">
                     <svg className="w-4 h-4 text-[#51D93D] mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -313,13 +313,13 @@ const LandingPage = () => {
                     <svg className="w-4 h-4 text-[#51D93D] mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Integridad
+                    Calidad
                   </li>
                   <li className="flex items-center">
                     <svg className="w-4 h-4 text-[#51D93D] mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    Responsabilidad
+                    Compromiso
                   </li>
                 </ul>
               </div>
@@ -333,7 +333,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nuestros <span className="text-[#51D93D]">Productos</span></h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Alimentos formulados científicamente para cada etapa de crecimiento de tus pollos</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Alimentos personalizados con inteligencia artificial para cada etapa de crecimiento</p>
             <div className="w-20 h-1 bg-[#51D93D] mx-auto mt-4"></div>
           </div>
           
@@ -389,7 +389,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Beneficios de Nuestros Alimentos</h2>
-            <p className="text-[#B7F25E] max-w-2xl mx-auto">Descubre por qué nuestros clientes confían en nosotros para la nutrición de sus pollos</p>
+            <p className="text-[#B7F25E] max-w-2xl mx-auto">Descubra por qué nuestros clientes confían en nosotros</p>
             <div className="w-20 h-1 bg-white mx-auto mt-4"></div>
           </div>
           
@@ -401,7 +401,7 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Crecimiento Acelerado</h3>
-              <p className="text-[#B7F25E]">Fórmulas que promueven un desarrollo rápido y uniforme de tus pollos, reduciendo días a mercado.</p>
+              <p className="text-[#B7F25E]">Fórmulas que promueven un desarrollo rápido y uniforme.</p>
             </div>
             
             <div className="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
@@ -411,7 +411,7 @@ const LandingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Salud Garantizada</h3>
-              <p className="text-[#B7F25E]">Aditivos naturales que fortalecen el sistema inmunológico y reducen la mortalidad.</p>
+              <p className="text-[#B7F25E]">Ingredientes que fortalecen el sistema inmunológico y reducen la mortalidad.</p>
             </div>
             
             <div className="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
@@ -478,21 +478,11 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Certificaciones de <span className="text-[#51D93D]">Calidad</span></h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Nuestros procesos cumplen con los más altos estándares de calidad y seguridad alimentaria</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Nuestros procesos cumplen con los más altos estándares de calidad y seguridad alimentaria.</p>
             <div className="w-20 h-1 bg-[#51D93D] mx-auto mt-4"></div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="bg-gray-50 p-6 rounded-xl flex flex-col items-center">
-              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-10 h-10 text-[#51D93D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold text-center">ISO 9001</h3>
-              <p className="text-gray-600 text-sm text-center mt-2">Sistema de Gestión de Calidad</p>
-            </div>
-            
             <div className="bg-gray-50 p-6 rounded-xl flex flex-col items-center">
               <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mb-4">
                 <svg className="w-10 h-10 text-[#51D93D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -509,8 +499,8 @@ const LandingPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-center">BPA</h3>
-              <p className="text-gray-600 text-sm text-center mt-2">Buenas Prácticas Agrícolas</p>
+              <h3 className="text-lg font-semibold text-center">Certificación BPM</h3>
+              <p className="text-gray-600 text-sm text-center mt-2">Garantiza condiciones higiénicas y de calidad en la producción.</p>
             </div>
             
             <div className="bg-gray-50 p-6 rounded-xl flex flex-col items-center">
@@ -519,8 +509,18 @@ const LandingPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-center">HACCP</h3>
-              <p className="text-gray-600 text-sm text-center mt-2">Análisis de Peligros</p>
+              <h3 className="text-lg font-semibold text-center">Certificación HACCP</h3>
+              <p className="text-gray-600 text-sm text-center mt-2">Enfocada en prevenir riesgos para la salud animal.</p>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-xl flex flex-col items-center">
+              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mb-4">
+                <svg className="w-10 h-10 text-[#51D93D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-center">Certificación de Economía Circular</h3>
+              <p className="text-gray-600 text-sm text-center mt-2">Refuerza tu modelo de aprovechamiento de residuos agroindustriales.</p>
             </div>
           </div>
         </div>
@@ -531,7 +531,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contáctanos</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Estamos listos para atender tus consultas y asesorarte en la nutrición de tus pollos</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Estamos listos para atender tus consultas y asesorarte en nutrición animal</p>
             <div className="w-20 h-1 bg-[#51D93D] mx-auto mt-4"></div>
           </div>
           
@@ -547,8 +547,8 @@ const LandingPage = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-800">Teléfonos</h4>
-                      <p className="text-gray-600">+51 987 654 321</p>
-                      <p className="text-gray-600">+51 1 234 5678</p>
+                      <p className="text-gray-600">+51 928 102 891</p>
+                      <p className="text-gray-600">+51 952 849 028</p>
                     </div>
                   </div>
                   
@@ -557,9 +557,8 @@ const LandingPage = () => {
                       <FiMail className="text-[#51D93D]" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Email</h4>
-                      <p className="text-gray-600">ventas@nutripollos.com</p>
-                      <p className="text-gray-600">consultas@nutripollos.com</p>
+                      <h4 className="font-medium text-gray-800">Correo electrónico</h4>
+                      <p className="text-gray-600">1041reco@gmail.com</p>
                     </div>
                   </div>
                   
@@ -569,7 +568,7 @@ const LandingPage = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-800">Dirección</h4>
-                      <p className="text-gray-600">Av. Los Avicultores 123, Lima, Perú</p>
+                      <p className="text-gray-600">Calle Los Sauces N° 104 - Cayhuayna, Huánuco, Perú</p>
                     </div>
                   </div>
                   
@@ -588,10 +587,10 @@ const LandingPage = () => {
                 <div className="mt-8">
                   <h4 className="font-medium text-gray-800 mb-4">Síguenos en redes sociales</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors">
+                    <a href="https://www.facebook.com/profile.php?id=61564372179345" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors" target="_blank" rel="noopener noreferrer">
                       <FaFacebook className="text-blue-600" size={20} />
                     </a>
-                    <a href="#" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors">
+                    {/* <a href="#" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors">
                       <FaInstagram className="text-pink-600" size={20} />
                     </a>
                     <a href="#" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors">
@@ -599,7 +598,7 @@ const LandingPage = () => {
                     </a>
                     <a href="#" className="bg-gray-100 hover:bg-yellow-100 p-3 rounded-full transition-colors">
                       <FaWhatsapp className="text-green-500" size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -695,14 +694,14 @@ const LandingPage = () => {
                   src={recoColor}
                 />
               </div>
-              <p className="text-gray-400 mt-2">Nutrición de calidad para tus aves</p>
+              <p className="text-gray-400 mt-2">Nutrición de calidad avícola</p>
             </div>
             
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.facebook.com/profile.php?id=61564372179345" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
                 <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              {/* <a href="#" className="text-gray-400 hover:text-white">
                 <FaInstagram size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
@@ -710,7 +709,7 @@ const LandingPage = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <FaWhatsapp size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
           
